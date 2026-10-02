@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+build/
+
+# prisma
+*.db
+*.db-journal
+
+# env (never commit real secrets)
+.env
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+.vercel
